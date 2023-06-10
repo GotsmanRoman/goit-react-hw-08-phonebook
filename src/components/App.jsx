@@ -29,6 +29,7 @@ const App = () => {
     <Container>
       <Header></Header>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/Home" element={<Home />} />
         <Route
           path="/Phonebook"
