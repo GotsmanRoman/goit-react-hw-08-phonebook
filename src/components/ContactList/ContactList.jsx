@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { deleteContact, getContacts } from '../API/API';
 import { useEffect } from 'react';
 import { Button } from '@mui/material';
+import styles from './ContactList.module.css';
 
 const ContactList = () => {
   const { contacts } = useSelector(state => state.contacts);
@@ -39,6 +40,7 @@ const ContactList = () => {
                   color="error"
                   onClick={() => handleDelete(id)}
                   id={id}
+                  className={styles.deleteButton}
                 >
                   Delete
                 </Button>

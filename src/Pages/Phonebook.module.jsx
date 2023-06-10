@@ -2,9 +2,10 @@ import styled from '@emotion/styled';
 
 export const Container = styled.div`
   box-sizing: border-box;
-  width: 600px;
+  max-width: 600px;
   height: 400px;
   margin: 20px auto;
+  padding: 0 16px;
 `;
 export const PageTitle = styled.h1`
   display: flex;

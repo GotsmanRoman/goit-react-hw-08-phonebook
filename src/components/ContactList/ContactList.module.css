@@ -1,3 +1,4 @@
-.contactButton {
-    
+.deleteButton {
+  width: 75px;
+  flex-shrink: 0;
 }

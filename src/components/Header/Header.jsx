@@ -8,6 +8,9 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+import styles from './Header.module.css';
 
 export function Header() {
   const { token } = useSelector(state => state.auth);
@@ -16,7 +19,7 @@ export function Header() {
     <HeaderSection>
       <Container>
         <Box sx={{ flexGrow: 1 }}>
-          <AppBar position="static">
+          <AppBar position="static" className={styles.AppBar}>
             <Toolbar>
               <PageNav></PageNav>
               <Typography sx={{ flexGrow: 1 }}></Typography>

@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 export const Container = styled.div`
   box-sizing: border-box;
-  width: 1280px;
   height: 400px;
   margin: 20px auto;
 `;
