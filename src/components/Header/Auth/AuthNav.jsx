@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link, NavLink, Outlet } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { List, Item } from './AuthNav.module';
 import styles from './AuthNav.module.css';
 

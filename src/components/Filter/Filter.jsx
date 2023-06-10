@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { Title, Input, Container } from './Filter.module';
+import { Title, Container } from './Filter.module';
 import { AiOutlineSearch } from 'react-icons/ai';
 
 import { useDispatch } from 'react-redux';
 import { filterContact } from '../../store/Filter/filterSlice';
-import { Button, TextField } from '@mui/material';
+import { TextField } from '@mui/material';
 
 const Filter = () => {
   const dispatch = useDispatch();

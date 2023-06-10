@@ -12,10 +12,3 @@ export const Title = styled.label`
   font-weight: 500;
   font-style: italic;
 `;
-export const Input = styled.input`
-  margin-top: 10px;
-  width: 200px;
-  height: 30px;
-  padding-left: 10px;
-  position: relative;
-`;
